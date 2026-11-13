@@ -1,0 +1,81 @@
+{
+  "music_dir": "./music",
+  "categories": [
+    {
+      "name": "☠ Día de Muertos",
+      "folder": "1_DIA_DE_MUERTOS",
+      "hotkey": "1",
+      "color": "purple"
+    },
+    {
+      "name": "👻 Halloween Terror",
+      "folder": "2_HALLOWEEN_TERROR",
+      "hotkey": "2",
+      "color": "red"
+    },
+    {
+      "name": "🎂 Cumpleaños",
+      "folder": "3_CUMPLEANOS",
+      "hotkey": "3",
+      "color": "yellow"
+    },
+    {
+      "name": "🧒 Infantil Disney",
+      "folder": "4_INFANTIL_DISNEY",
+      "hotkey": "4",
+      "color": "blue"
+    },
+    {
+      "name": "🎵 Infantil Clásicos",
+      "folder": "5_INFANTIL_CLASICOS",
+      "hotkey": "5",
+      "color": "green"
+    },
+    {
+      "name": "🎄 Navidad",
+      "folder": "6_NAVIDAD",
+      "hotkey": "6",
+      "color": "green"
+    },
+    {
+      "name": "🎪 Circo / Show",
+      "folder": "7_CIRCO_SHOW",
+      "hotkey": "7",
+      "color": "yellow"
+    },
+    {
+      "name": "🤡 Payasos",
+      "folder": "8_PAYASOS",
+      "hotkey": "8",
+      "color": "red"
+    },
+    {
+      "name": "🎙 Brinco Dieras",
+      "folder": "9_BRINCO_DIERAS",
+      "hotkey": "9",
+      "color": "white"
+    },
+    {
+      "name": "🔊 DJ Efectos",
+      "folder": "DJ_EFECTOS",
+      "hotkey": "",
+      "color": "white"
+    },
+    {
+      "name": "🎶 Loops Fiesta",
+      "folder": "LOOPS_FIESTA",
+      "hotkey": "",
+      "color": "white"
+    }
+  ],
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "allowed_ips": [
+      "127.0.0.1",
+      "192.168.1.*",
+      "192.168.0.*",
+      "10.0.*.*"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.so
+.installed.cfg
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# ============================================================
+#  Secretos y configuración local
+# ============================================================
+.env
+.env.*
+!.env.example
+instance/
+
+# ============================================================
+#  Archivos de audio — NO se suben al repo (copyright / peso)
+#  Coloca tus propios efectos en music/<CARPETA>/ según el
+#  README dentro de esa carpeta.
+# ============================================================
+*.mp3
+*.MP3
+*.wav
+*.WAV
+*.ogg
+*.OGG
+*.flac
+*.FLAC
+*.m4a
+*.M4A
+*.aac
+*.AAC
+*.opus
+*.OPUS
+
+# Bibliotecas brutas de audio (carpetas de trabajo locales)
+Efectos musica/
+Efectos Musica 2/
+Efectos Brincos Dieras/
+Sound efectos/
+Musica y efectos para Show/
+MUSICA INFANTIL 2021/
+
+# ============================================================
+#  Logs y caché
+# ============================================================
+logs/
+*.log
+
+# ============================================================
+#  Pytest / coverage
+# ============================================================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ============================================================
+#  IDEs
+# ============================================================
+.idea/
+.vscode/
+*.iml
+.claude/
+
+# ============================================================
+#  Sistema operativo
+# ============================================================
+.DS_Store
+Thumbs.db
